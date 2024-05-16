@@ -1,9 +1,12 @@
 import sabin from '../../public/players/sabin.jpg'
+import prajjwal from '../../public/players/prajjwal.jpg'
+import subodh from '../../public/players/subodh.jpg'
+import suman from '../../public/players/suman.jpg'
 import { StaticImageData } from 'next/image';
 type Player = {
     name: string;
     position: string;
-    img: string |  StaticImageData;
+    img: StaticImageData;
   };
   
 
@@ -16,19 +19,19 @@ export const  player:Player[]=[
     {
         name:"Prajjwal Neupane",
         position:"Forward",
-        img:"/players/prajjwal.jpg"
+        img:prajjwal
         
     },
     {
         name:"Subodh Neupane",
         position:"Midfilder",
-        img:"/players/subodh.jpg"
+        img:subodh
         
     },
     {
         name:"Suman Neupane",
         position:"Defender",
-        img:"/players/suman.jpg"
+        img:suman
         
     }
 ]
