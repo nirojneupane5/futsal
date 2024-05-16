@@ -1,4 +1,3 @@
-import sabin from "../../public/players/sabin.jpg";
 import Image from "next/image";
 import { player } from "./player";
 export default function Home() {
